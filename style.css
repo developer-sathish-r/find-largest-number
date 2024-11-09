@@ -1,0 +1,48 @@
+body{
+    background-color: honeydew;
+}
+
+p{
+ justify-content: center;
+}
+
+textarea{
+    border-radius: 9px;
+
+    font-size: 20px;
+    width:400px;
+}
+
+fieldset {
+    width: 500px;
+    margin-left: 500px;
+    margin-top: 150px;
+    margin-bottom: 15px;
+}
+
+.form {
+    text-align: center;
+    border: 55px;
+}
+
+#error {
+    color: rgba(238, 6, 6, 0.924);
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+
+#large {
+    color: rgb(64, 8, 248);
+    font-size: large;
+}
+
+.btn {
+    margin: 15px;
+    font-size: large;
+}
+
+p {
+    width: 50%;
+    display: flex;
+}

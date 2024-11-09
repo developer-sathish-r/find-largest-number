@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Register Form</title>
+    <link rel="stylesheet" href="style.css">
+<!--placeholder="Enter number seperate by comma (,)"-->
+</head>
+
+<body>
+    <div class="form">
+        <fieldset>
+            <legend>
+                Number Game
+            </legend>
+            <h1>To find Largest number </h1>
+            <p>Eg : 153,456 (seperate by comma(,)) </p>
+            <textarea id="area" rows="1" cols="50" placeholder="eg:153,456" > </textarea>
+            <div id="error"></div>
+            <div id="large"> </div>
+            <input type="button" value="Submit" onclick="result()" class="btn">
+        <input type="button" value="Reset" onclick="__clear()" class="btn">
+        <br>
+        </fieldset>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
